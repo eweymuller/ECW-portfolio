@@ -52,6 +52,15 @@ p {
   line-height: 27px;
   padding: 15px 30px;
 }
+.btn-branding-panel {
+  background-color: var(--branding-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 15px 25px;
+  margin-left: 50px;
+}
 .home-page-img {
   border-radius: 10px;
   text-align: center;
@@ -60,6 +69,7 @@ p {
 
 .panel-odd {
   background: var(--third-color);
+  padding: 100px;
 }
 .panel-odd h2 {
   color: black;
@@ -72,6 +82,7 @@ p {
 
 .panel-even {
   background: var(--secondary-color);
+  padding: 100px;
 }
 .panel-even h2 {
   color: white;
