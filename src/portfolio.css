@@ -1,9 +1,10 @@
 :root {
-  --primary-color: #272142;
-  --secondary-color: #f9f7fe;
+  --primary-color: #c7cef5;
+  --secondary-color: #0f0e0f;
+  --third-color: #f9f7fe;
+  --branding-color: #8c888f;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
-  --branding-color: #6c63ff;
 }
 body {
   font-family: var(--default-font-family);
@@ -14,7 +15,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: black;
+  color: White;
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
@@ -50,4 +51,30 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+.home-page-img {
+  border-radius: 10px;
+  padding: 5px;
+  border: 0.5px solid var(--branding-color);
+}
+.panel-odd {
+  background: var(--third-color);
+  padding: 40px;
+}
+.panel-odd h2 {
+  color: black;
+}
+.panel-odd p {
+  color: var(--secondary-color);
+}
+
+.panel-even {
+  background: var(--secondary-color);
+  padding: 40px;
+}
+.panel-even h2 {
+  color: white;
+}
+.panel-even p {
+  color: var(--third-color);
 }
