@@ -54,27 +54,30 @@ p {
 }
 .home-page-img {
   border-radius: 10px;
-  padding: 5px;
-  border: 0.5px solid var(--branding-color);
+  text-align: center;
+  max-width: 75%;
 }
+
 .panel-odd {
   background: var(--third-color);
-  padding: 40px;
 }
 .panel-odd h2 {
   color: black;
+  text-align: center;
 }
 .panel-odd p {
   color: var(--secondary-color);
+  padding-left: 50px;
 }
 
 .panel-even {
   background: var(--secondary-color);
-  padding: 40px;
 }
 .panel-even h2 {
   color: white;
+  text-align: center;
 }
 .panel-even p {
   color: var(--third-color);
+  padding-left: 50px;
 }
