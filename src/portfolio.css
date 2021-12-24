@@ -93,20 +93,41 @@ p {
   color: var(--third-color);
   padding-left: 50px;
 }
+
 @media (max-width: 576px) {
-  .home-page-img {
-    display: none;
+  .hero p {
+    font-size: 18px;
+  }
+  .hero h1 {
+    font-size: 48px;
+  }
+  .hero h2 {
+    font-size: 12px;
+  }
+  .btn-branding {
+    font-size: 12px;
+    line-height: 5px;
   }
   .btn-branding-panel {
     margin-left: none;
+    font-size: 12px;
+    line-height: 5px;
   }
   .btn-branding-panel {
     margin: 0;
   }
-  .panel-even {
+  .panel-even p {
     padding-left: 0;
   }
-  .panel-odd {
+  .panel-odd p {
     padding-left: 0;
+  }
+  .panel-even {
+    padding: 0px;
+    margin-top: 10px;
+  }
+  .panel-odd {
+    padding: 0px;
+    margin-top: 10px;
   }
 }
