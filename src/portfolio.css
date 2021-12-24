@@ -62,14 +62,15 @@ p {
   margin-left: 50px;
 }
 .home-page-img {
-  border-radius: 10px;
-  text-align: center;
-  max-width: 75%;
+  border-radius: 5px;
+  max-width: 900px;
+  object-fit: fit;
+  text-align: right;
 }
 
 .panel-odd {
   background: var(--third-color);
-  padding: 100px;
+  padding: 200px;
 }
 .panel-odd h2 {
   color: black;
@@ -82,7 +83,7 @@ p {
 
 .panel-even {
   background: var(--secondary-color);
-  padding: 100px;
+  padding: 200px;
 }
 .panel-even h2 {
   color: white;
@@ -91,4 +92,21 @@ p {
 .panel-even p {
   color: var(--third-color);
   padding-left: 50px;
+}
+@media (max-width: 576px) {
+  .home-page-img {
+    display: none;
+  }
+  .btn-branding-panel {
+    margin-left: none;
+  }
+  .btn-branding-panel {
+    margin: 0;
+  }
+  .panel-even {
+    padding-left: 0;
+  }
+  .panel-odd {
+    padding-left: 0;
+  }
 }
