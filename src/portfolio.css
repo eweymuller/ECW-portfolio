@@ -63,7 +63,6 @@ p {
 }
 .home-page-img {
   border-radius: 5px;
-  max-width: 900px;
   object-fit: fit;
   text-align: right;
 }
