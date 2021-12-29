@@ -69,7 +69,7 @@ p {
 
 .panel-odd {
   background: var(--third-color);
-  padding: 200px;
+  padding: 120px 60px;
 }
 .panel-odd h2 {
   color: black;
@@ -77,12 +77,11 @@ p {
 }
 .panel-odd p {
   color: var(--secondary-color);
-  padding-left: 50px;
 }
 
 .panel-even {
   background: var(--secondary-color);
-  padding: 200px;
+  padding: 120px 60px;
 }
 .panel-even h2 {
   color: white;
@@ -90,7 +89,6 @@ p {
 }
 .panel-even p {
   color: var(--third-color);
-  padding-left: 50px;
 }
 
 @media (max-width: 576px) {
@@ -115,12 +113,7 @@ p {
   .btn-branding-panel {
     margin: 0;
   }
-  .panel-even p {
-    padding-left: 0;
-  }
-  .panel-odd p {
-    padding-left: 0;
-  }
+
   .panel-even {
     padding: 0px;
     margin-top: 10px;
