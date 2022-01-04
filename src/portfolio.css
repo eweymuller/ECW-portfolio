@@ -105,15 +105,12 @@ p {
     font-size: 12px;
   }
   .btn-branding {
-    font-size: 12px;
+    font-size: 10px;
     line-height: 5px;
   }
   .btn-branding-panel {
-    margin-left: none;
     font-size: 12px;
     line-height: 5px;
-  }
-  .btn-branding-panel {
     margin: 0;
   }
   .panel-even {
@@ -133,7 +130,7 @@ p {
   .panel-odd p {
     font-size: 12px;
   }
-  .panel-odd p {
+  .panel-odd h2 {
     font-size: 18px;
   }
 }
