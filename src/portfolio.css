@@ -29,7 +29,7 @@ p {
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 160px 0px;
+  padding: 160px 40px;
 }
 .hero h2 {
   font-family: var(--default-font-family);
@@ -91,15 +91,16 @@ p {
   color: var(--third-color);
 }
 
-@media (max-width: 576px) {
+@media (max-width: 960px) {
   .hero {
-    padding: 8px, 20px;
+    padding: 80px, 20px;
   }
   .hero p {
     font-size: 18px;
   }
   .hero h1 {
     font-size: 48px;
+    line-height: 2;
   }
   .hero h2 {
     font-size: 12px;
@@ -114,7 +115,7 @@ p {
     margin: 0;
   }
   .panel-even {
-    padding: 0px;
+    padding: 20px 15px;
     margin-top: 10px;
   }
   .panel-even p {
@@ -124,7 +125,7 @@ p {
     font-size: 18px;
   }
   .panel-odd {
-    padding: 0px;
+    padding: 20px 15px;
     margin-top: 10px;
   }
   .panel-odd p {
