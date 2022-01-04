@@ -90,7 +90,10 @@ p {
 .panel-even p {
   color: var(--third-color);
 }
-
+.footer-p {
+  font-family: monospace;
+  font-size: 10px;
+}
 @media (max-width: 769px) {
   .hero {
     padding: 80px, 20px;
