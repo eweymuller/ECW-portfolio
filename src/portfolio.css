@@ -92,6 +92,9 @@ p {
 }
 
 @media (max-width: 576px) {
+  .hero {
+    padding: 8px, 20px;
+  }
   .hero p {
     font-size: 18px;
   }
@@ -113,13 +116,24 @@ p {
   .btn-branding-panel {
     margin: 0;
   }
-
   .panel-even {
     padding: 0px;
     margin-top: 10px;
   }
+  .panel-even p {
+    font-size: 12px;
+  }
+  .panel-even h2 {
+    font-size: 18px;
+  }
   .panel-odd {
     padding: 0px;
     margin-top: 10px;
+  }
+  .panel-odd p {
+    font-size: 12px;
+  }
+  .panel-odd p {
+    font-size: 18px;
   }
 }
