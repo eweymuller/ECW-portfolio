@@ -91,7 +91,7 @@ p {
   color: var(--third-color);
 }
 
-@media (max-width: 960px) {
+@media (max-width: 769px) {
   .hero {
     padding: 80px, 20px;
   }
