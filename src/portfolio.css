@@ -144,6 +144,10 @@ p {
   .profile-img {
     border: 1px solid var(--branding-color);
   }
+  .about-section {
+    background-color: var(--secondary-color);
+    padding: 80px 40px;
+  }
 }
 
 .about-section {
