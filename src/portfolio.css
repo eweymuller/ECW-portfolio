@@ -106,7 +106,7 @@ p {
     line-height: 2;
   }
   .hero h2 {
-    font-size: 12px;
+    font-size: 14px;
   }
   .btn-branding {
     font-size: 11px;
@@ -116,7 +116,6 @@ p {
   .btn-branding-panel {
     font-size: 12px;
     line-height: 5px;
-    margin: 0;
   }
   .panel-even {
     padding: 20px 15px;
