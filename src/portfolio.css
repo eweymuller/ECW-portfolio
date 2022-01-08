@@ -61,33 +61,33 @@ p {
   padding: 15px 25px;
   margin-left: 50px;
 }
-.home-page-img {
+.default-img {
   border-radius: 5px;
   object-fit: fit;
   text-align: right;
 }
 
-.panel-odd {
+.light {
   background: var(--third-color);
   padding: 120px 60px;
 }
-.panel-odd h2 {
+.light h2 {
   color: black;
   text-align: center;
 }
-.panel-odd p {
+.light p {
   color: var(--secondary-color);
 }
 
-.panel-even {
+.dark {
   background: var(--secondary-color);
   padding: 120px 60px;
 }
-.panel-even h2 {
+.dark h2 {
   color: white;
   text-align: center;
 }
-.panel-even p {
+.dark p {
   color: var(--third-color);
 }
 .footer-p {
@@ -121,6 +121,30 @@ p {
   margin: 10px;
   border: 3px solid var(--branding-color);
 }
+.content h1 {
+  color: var(--third-color);
+}
+.content h3 {
+  color: var(--third-color);
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: var(--default-font-family);
+  font-weight: normal;
+  text-align: center;
+}
+.content h1 {
+  font-size: 64px;
+  line-height: 80px;
+  text-align: center;
+}
+.content p {
+  font-size: 14px;
+  font-family: var(--default-font-family);
+  text-align: center;
+  line-height: 30px;
+  font-weight: normal;
+  color: var(--primary-color);
+}
 @media (max-width: 769px) {
   .hero {
     padding: 80px, 20px;
@@ -144,24 +168,24 @@ p {
     font-size: 12px;
     line-height: 5px;
   }
-  .panel-even {
+  .dark {
     padding: 20px 15px;
     margin-top: 10px;
   }
-  .panel-even p {
+  .dark p {
     font-size: 12px;
   }
-  .panel-even h2 {
+  .dark h2 {
     font-size: 18px;
   }
-  .panel-odd {
+  .light {
     padding: 20px 15px;
     margin-top: 10px;
   }
-  .panel-odd p {
+  .light p {
     font-size: 12px;
   }
-  .panel-odd h2 {
+  .light h2 {
     font-size: 18px;
   }
   .about-section h1 {
