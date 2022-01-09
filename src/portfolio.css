@@ -121,6 +121,9 @@ p {
   margin: 10px;
   border: 3px solid var(--branding-color);
 }
+.content-container {
+  padding: 160px 20px;
+}
 .content {
   margin: 30px;
 }
@@ -128,7 +131,6 @@ p {
   color: var(--third-color);
   font-size: 64px;
   line-height: 80px;
-  text-align: center;
 }
 .content h3 {
   color: var(--third-color);
@@ -136,12 +138,10 @@ p {
   line-height: 1.5;
   font-family: var(--default-font-family);
   font-weight: normal;
-  text-align: center;
 }
 .content p {
   font-size: 14px;
   font-family: var(--default-font-family);
-  text-align: center;
   line-height: 30px;
   font-weight: normal;
   color: var(--primary-color);
