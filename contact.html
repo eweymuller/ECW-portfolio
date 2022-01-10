@@ -29,13 +29,31 @@
     <title>Eva Weymuller's Portfolio</title>
     <link rel="stylesheet" href="src/portfolio.css" />
   </head>
-  <body class="dark">
-    <div class="container-fluid content-container">
+  <body>
+    <nav class="d-flex justify-content-end">
+      <ul>
+        <li class="active">
+          <a href="/index.html" title="Homepage">Home</a>
+        </li>
+        <li>
+          <a href="/about.html" title="About Eva">About</a>
+        </li>
+        <li>
+          <a href="/work.html" title="Eva's Work">Work</a>
+        </li>
+        <li>
+          <a href="/contact.html" title="Contact Eva">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="container-fluid content-container dark">
       <div class="content">
         <h1 class="mb-5">Let's get in touch!</h1>
         <h3>Email</h3>
         <p>
-          <a href="mailto:eweymuller@gmail.com">eweymuller@gmail.com</a>
+          <a href="mailto:eweymuller@gmail.com" title="Email me"
+            >eweymuller@gmail.com</a
+          >
         </p>
         <h3>LinkedIn</h3>
         <p>
@@ -49,5 +67,70 @@
         </p>
       </div>
     </div>
+    <footer>
+      <div
+        class="
+          container-fluid
+          contact-box
+          d-flex
+          justify-content-between
+          d-none d-md-flex
+        "
+      >
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding mt-3"
+            title="Contact Me"
+            >Contact me</a
+          >
+        </div>
+      </div>
+      <div class="container-fluid d-flex justify-content-center mb-5">
+        <a href="mailto:eweymuller@gmail.com" class="email-link"
+          >eweymuller@gmail.com</a
+        >
+      </div>
+      <div
+        class="container-fluid d-flex social-links justify-content-center mb-5"
+      >
+        <a
+          href="https://www.instagram.com/eweymuller"
+          target="_blank"
+          title="Instagram Profile"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/eva-weymuller-062349203/"
+          target="_blank"
+          title="Linkedin Profile"
+        >
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a
+          href="https://www.facebook.com/profile.php?id=100010369237503"
+          target="_blank"
+          title="Facebook Profile"
+        >
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a
+          href="https://github.com/eweymuller/ECW-portfolio"
+          target="_blank"
+          title="GitHub Profile"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <p class="text-center mb-5">
+        This website was coded by Eva Weymuller, and is
+        <a href="https://github.com/eweymuller/ECW-portfolio">open-sourced</a>
+      </p>
+    </footer>
   </body>
 </html>
