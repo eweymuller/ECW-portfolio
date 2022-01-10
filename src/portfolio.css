@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #c7cef5;
+  --primary-color: #a9b6ff;
   --dark-color: #0f0e0f;
   --light-color: #f9f7fe;
   --branding-color: #8c888f;
@@ -169,6 +169,39 @@ p {
   font-weight: normal;
   color: var(--primary-color);
 }
+footer {
+  margin: 60px;
+}
+footer .contact-box {
+  background: var(--light-color);
+  padding: 30px 120px;
+}
+footer h3 {
+  color: var(--dark-color);
+  font-size: 48px;
+}
+footer .email-link {
+  text-decoration: none;
+  color: var(--dark-color);
+  font-size: 24px;
+}
+footer .email-link:hover {
+  text-decoration: none;
+  color: #576bdf;
+  font-size: 24px;
+}
+footer .social-links a {
+  color: var(--dark-color);
+  margin: 0 20px;
+  padding: 10px 16px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: var(--primary-color);
+  background-color: var(--dark-color);
+}
 @media (max-width: 769px) {
   nav li {
     line-height: 39px;
@@ -192,12 +225,13 @@ p {
   }
   .btn-branding {
     font-size: 11px;
-    line-height: 5px;
+    line-height: 10px;
     padding: 12px 20px;
   }
   .btn-branding-panel {
-    font-size: 12px;
+    font-size: 10px;
     line-height: 5px;
+    padding: 11px 18px;
   }
   .dark {
     padding: 20px 15px;
@@ -234,5 +268,9 @@ p {
   }
   .content h3 {
     font-size: 18px;
+  }
+
+  footer .email-link {
+    font-size: 20px;
   }
 }
